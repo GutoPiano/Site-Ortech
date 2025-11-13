@@ -27,9 +27,7 @@ const props = defineProps({
 })
 
 const logoSrc = computed(() => {
-  return props.variant === 'dark' 
-    ? '/images/logo-ortech-dark.png' 
-    : '/images/logo-ortech-light.png'
+  return '/images/logo.png'
 })
 
 const imageClass = computed(() => {

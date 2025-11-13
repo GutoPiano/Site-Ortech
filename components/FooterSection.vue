@@ -3,7 +3,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid md:grid-cols-4 gap-8">
         <div>
-          <OrtechLogo :size="50" textSize="xl" greenColor="#FFFFFF" goldColor="#D4AF37" textColor="text-white" subtitleColor="text-ortech-gold" />
+          <h3 class="text-3xl font-poppins font-bold text-white mb-2">ORTECH</h3>
+          <p class="text-ortech-gold text-sm font-montserrat mb-2">Contabilidade e Consultoria</p>
           <p class="text-gray-400 text-sm mt-4 font-playfair italic">"Contabilizando o seu sucesso."</p>
         </div>
         

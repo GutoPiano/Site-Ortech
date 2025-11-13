@@ -6,7 +6,7 @@
           Por que escolher a Ortech?
         </h2>
         <p class="text-xl text-gray-600">
-          Diferenciais que fazem a diferença no seu negócio
+          Diferenciais do nosso negócio
         </p>
       </div>
       
