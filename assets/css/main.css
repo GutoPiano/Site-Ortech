@@ -1,0 +1,9 @@
+/* Scroll suave para toda a página */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ajuste para compensar o header fixo */
+section[id] {
+  scroll-margin-top: 80px;
+}

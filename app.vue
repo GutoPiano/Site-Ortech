@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-white font-montserrat">
+  <div class="min-h-screen bg-white font-montserrat scroll-smooth">
     <NuxtRouteAnnouncer />
     
     <HeaderNav />
@@ -7,6 +7,7 @@
     <DiferenciaisSection />
     <ServicosSection />
     <DepoimentosSection />
+    <AboutSection />
     <CtaSection />
     <FooterSection />
   </div>

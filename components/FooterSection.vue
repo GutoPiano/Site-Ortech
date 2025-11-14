@@ -6,6 +6,22 @@
           <h3 class="text-3xl font-poppins font-bold text-white mb-2">ORTECH</h3>
           <p class="text-ortech-gold text-sm font-montserrat mb-2">Contabilidade e Consultoria</p>
           <p class="text-gray-400 text-sm mt-4 font-playfair italic">"Contabilizando o seu sucesso."</p>
+          
+          <!-- Card de Horário de Funcionamento -->
+          <div class="mt-6 bg-ortech-gold/10 border-2 border-ortech-gold rounded-lg p-4">
+            <div class="flex items-center gap-2 mb-3">
+              <svg class="w-5 h-5 text-ortech-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <h5 class="font-montserrat font-bold text-ortech-gold text-sm">Horário de Funcionamento</h5>
+            </div>
+            <div class="space-y-1 text-sm font-montserrat">
+              <p class="text-gray-300">
+                <span class="text-ortech-gold font-semibold">Segunda a Sexta</span>
+              </p>
+              <p class="text-white font-bold text-base">08:00 às 18:00</p>
+            </div>
+          </div>
         </div>
         
         <div>
@@ -16,7 +32,15 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-              <span class="text-gray-300">Rua Coronel Herculano de Araújo, 493<br>Curitiba - PR</span>
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=Rua+Coronel+Herculano+de+Araújo+493+Curitiba+PR" 
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-300 hover:text-ortech-gold transition-colors"
+                title="Abrir no Google Maps"
+              >
+                Rua Coronel Herculano de Araújo, 493<br>Curitiba - PR
+              </a>
             </li>
             <li class="flex items-center">
               <svg class="w-5 h-5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
