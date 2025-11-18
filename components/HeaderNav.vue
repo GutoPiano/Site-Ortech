@@ -8,11 +8,11 @@
           </h1>
         </div>
         <nav class="hidden md:flex space-x-8">
-          <a href="#home" class="text-white hover:text-ortech-green transition-colors font-medium">Home</a>
-          <a href="#diferenciais" class="text-white hover:text-ortech-green transition-colors font-medium">Diferenciais</a>
-          <a href="#servicos" class="text-white hover:text-ortech-green transition-colors font-medium">Serviços</a>
-          <a href="#depoimentos" class="text-white hover:text-ortech-green transition-colors font-medium">Depoimentos</a>
-          <a href="#blog" class="text-white hover:text-ortech-green transition-colors font-medium">Blog</a>
+          <a href="/#home" class="text-white hover:text-ortech-green transition-colors font-medium">Home</a>
+          <a href="/#diferenciais" class="text-white hover:text-ortech-green transition-colors font-medium">Diferenciais</a>
+          <a href="/#servicos" class="text-white hover:text-ortech-green transition-colors font-medium">Serviços</a>
+          <a href="/#depoimentos" class="text-white hover:text-ortech-green transition-colors font-medium">Depoimentos</a>
+          <a href="/#blog" class="text-white hover:text-ortech-green transition-colors font-medium">Blog</a>
         </nav>
         <a 
           href="https://wa.me/554133276453" 
