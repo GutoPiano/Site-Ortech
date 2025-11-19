@@ -69,16 +69,15 @@
             <p class="text-gray-600 font-montserrat text-sm mb-4">
               Saiba como estruturar faturamento recorrente, organizar sua gestão financeira e garantir previsibilidade no fluxo de caixa.
             </p>
-            <a 
-              href="#" 
-              class="inline-flex items-center gap-2 text-gray-400 font-montserrat font-semibold cursor-not-allowed"
-              onclick="return false;"
+            <NuxtLink 
+              to="/artigo-faturamento-recorrente" 
+              class="inline-flex items-center gap-2 text-ortech-green font-montserrat font-semibold hover:text-ortech-gold transition-colors"
             >
-              Em breve
+              Leia mais
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
-            </a>
+            </NuxtLink>
           </div>
         </div>
 

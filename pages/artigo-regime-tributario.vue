@@ -128,7 +128,7 @@
     </ul>
 
     <div class="cta-box">
-      <h3>Quer saber qual regime tributário é melhor para sua loja?</h3>
+      <h3>Quer saber qual regime tributário é melhor para sua empresa?</h3>
       <p>Fale com nossos especialistas e receba uma análise do seu caso.</p>
       
       <div class="contact-item-wrapper">
