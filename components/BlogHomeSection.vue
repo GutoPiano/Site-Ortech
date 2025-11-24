@@ -81,20 +81,40 @@
           </div>
         </div>
 
-        <!-- Card 3 - Placeholder -->
-        <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group opacity-50">
-          <div class="h-48 bg-gradient-to-br from-gray-400 to-gray-500 flex items-center justify-center">
-            <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
+        <!-- Card 3 - Terceiro Artigo -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group">
+          <!-- Imagem -->
+          <div class="card-image-3 overflow-hidden">
+            <img 
+              src="/images/receita federal.png" 
+              alt="Como abrir uma empresa em 2025"
+              class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
+            >
           </div>
+
+          <!-- Conteúdo -->
           <div class="p-6">
-            <h3 class="text-xl font-poppins font-bold text-gray-400 mb-3">
-              Em breve: Mais conteúdos sobre tributação
+            <div class="mb-3">
+              <span class="inline-block bg-ortech-gold/10 text-ortech-gold px-3 py-1 rounded-full text-xs font-montserrat font-semibold">
+                Abertura de Empresa
+              </span>
+            </div>
+
+            <h3 class="text-xl font-poppins font-bold text-ortech-green mb-3 group-hover:text-ortech-gold transition-colors">
+              Como abrir uma empresa em 2025: guia completo atualizado
             </h3>
-            <p class="text-gray-400 font-montserrat text-sm mb-4">
-              Novos artigos sobre planejamento tributário e economia de impostos.
+            <p class="text-gray-600 font-montserrat text-sm mb-4">
+              Abrir uma empresa em 2025 está mais rápido, mais digital e mais acessível do que nunca. Com processos integrados, registros automáticos e a unificação de etapas, é possível formalizar um CNPJ em poucas horas.
             </p>
+            <NuxtLink 
+              to="/artigo-abrir-empresa-2025" 
+              class="inline-flex items-center gap-2 text-ortech-green font-montserrat font-semibold hover:text-ortech-gold transition-colors"
+            >
+              Leia mais
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -117,6 +137,11 @@
   height: 400px;
 }
 
+/* Altura customizada para o card 3 - proporção da imagem receita federal */
+.card-image-3 {
+  height: 280px;
+}
+
 @media (max-width: 768px) {
   .card-image-1 {
     height: 200px;
@@ -124,6 +149,10 @@
   
   .card-image-2 {
     height: 300px;
+  }
+
+  .card-image-3 {
+    height: 200px;
   }
 }
 </style>
