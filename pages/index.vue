@@ -5,6 +5,7 @@
     <ServicosSection />
     <DepoimentosSection />
     <AboutSection />
+    <FaqSection />
     <BlogHomeSection />
     <CtaSection />
   </div>

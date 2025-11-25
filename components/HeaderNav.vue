@@ -12,6 +12,7 @@
           <a href="/#diferenciais" class="text-white hover:text-ortech-green transition-colors font-medium">Diferenciais</a>
           <a href="/#servicos" class="text-white hover:text-ortech-green transition-colors font-medium">Serviços</a>
           <a href="/#depoimentos" class="text-white hover:text-ortech-green transition-colors font-medium">Depoimentos</a>
+          <a href="/#faq" class="text-white hover:text-ortech-green transition-colors font-medium">FAQ</a>
           <a href="/#blog" class="text-white hover:text-ortech-green transition-colors font-medium">Blog</a>
         </nav>
         <a 
