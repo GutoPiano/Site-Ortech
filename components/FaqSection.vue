@@ -10,21 +10,21 @@
         </p>
       </div>
 
-      <div class="space-y-4">
+      <div class="space-y-6">
         <div 
           v-for="(faq, index) in faqs" 
           :key="index"
-          class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg"
+          class="bg-ortech-green rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl"
         >
           <button
             @click="toggleFaq(index)"
-            class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none focus:ring-2 focus:ring-ortech-gold"
+            class="w-full px-8 py-6 text-left flex justify-between items-center focus:outline-none focus:ring-2 focus:ring-ortech-gold"
           >
-            <span class="text-lg font-semibold text-ortech-blue pr-8">
+            <span class="text-lg font-semibold text-white pr-8">
               {{ faq.question }}
             </span>
             <svg
-              :class="['w-6 h-6 text-ortech-gold transition-transform duration-300', { 'rotate-180': openIndex === index }]"
+              :class="['w-6 h-6 text-white transition-transform duration-300 flex-shrink-0', { 'rotate-180': openIndex === index }]"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -33,9 +33,9 @@
             </svg>
           </button>
           <div
-            :class="['overflow-hidden transition-all duration-300', openIndex === index ? 'max-h-96' : 'max-h-0']"
+            :class="['overflow-hidden transition-all duration-300', openIndex === index ? 'max-h-[500px]' : 'max-h-0']"
           >
-            <div class="px-6 pb-5 text-gray-700 leading-relaxed">
+            <div class="px-8 pt-2 pb-6 text-white leading-relaxed">
               {{ faq.answer }}
             </div>
           </div>
@@ -70,24 +70,24 @@ const toggleFaq = (index) => {
 
 const faqs = [
   {
-    question: 'Quanto tempo leva para abrir uma empresa?',
-    answer: 'O processo de abertura de empresa geralmente leva de 15 a 30 dias úteis, dependendo da complexidade do negócio e da documentação necessária. Na Ortech, agilizamos todo o processo e mantemos você informado em cada etapa.'
+    question: 'Vocês atendem empresas de todos os portes?',
+    answer: 'Sim! Atendemos desde MEI e microempresas até empresas de médio e grande porte. Nossos serviços são personalizados de acordo com as necessidades específicas de cada cliente.'
   },
   {
     question: 'Qual o melhor regime tributário para minha empresa?',
-    answer: 'O regime tributário ideal depende do faturamento, atividade e estrutura da sua empresa. Oferecemos análise gratuita para identificar se o Simples Nacional, Lucro Presumido ou Lucro Real é mais vantajoso para o seu negócio, garantindo economia tributária.'
+    answer: 'O regime tributário ideal depende do faturamento, atividade e estrutura da sua empresa. Oferecemos análise completa para identificar se o Simples Nacional, Lucro Presumido ou Lucro Real é mais vantajoso para o seu negócio, garantindo economia tributária.'
   },
   {
     question: 'Quais documentos preciso para abrir minha empresa?',
-    answer: 'Você precisará de RG, CPF, comprovante de residência dos sócios, contrato de locação ou escritura do imóvel onde a empresa funcionará. Nossa equipe orienta sobre toda a documentação necessária e auxilia na preparação.'
+    answer: 'Você precisará de RG, CPF, comprovante de residência dos sócios, contrato de locação ou escritura do imóvel onde a empresa funcionará. Nossa equipe orienta sobre toda a documentação necessária.'
   },
   {
     question: 'Como funciona o serviço de contabilidade mensal?',
     answer: 'Cuidamos de toda a parte contábil e fiscal da sua empresa: emissão de guias de impostos, folha de pagamento, declarações obrigatórias, balanços e demonstrativos. Você recebe relatórios mensais e tem suporte contínuo da nossa equipe.'
   },
   {
-    question: 'Vocês atendem empresas de todos os portes?',
-    answer: 'Sim! Atendemos desde MEI e microempresas até empresas de médio e grande porte. Nossos serviços são personalizados de acordo com as necessidades específicas de cada cliente.'
+    question: 'Quanto tempo demora para abrir empresa e obter CNPJ?',
+    answer: 'A emissão do CNPJ costuma ocorrer em 24 a 48 horas após o envio dos documentos. Já o processo completo — incluindo inscrição municipal, estadual (se necessário) e liberação para emitir notas — pode levar alguns dias, dependendo da atividade e dos órgãos responsáveis.'
   },
   {
     question: 'Posso migrar minha contabilidade para a Ortech?',
@@ -99,7 +99,7 @@ const faqs = [
   },
   {
     question: 'Como funciona o atendimento e suporte?',
-    answer: 'Oferecemos atendimento personalizado via WhatsApp, e-mail e telefone. Você tem um contador dedicado que conhece seu negócio e está sempre disponível para esclarecer dúvidas e orientar nas melhores decisões.'
+    answer: 'Oferecemos atendimento personalizado via WhatsApp, e-mail e telefone. Você tem profissionais dedicados que conhecem seu negócio e estão sempre disponível para esclarecer dúvidas e orientar nas melhores decisões.'
   }
 ]
 </script>
