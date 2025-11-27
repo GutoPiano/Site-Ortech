@@ -83,7 +83,7 @@ const faqs = [
   },
   {
     question: 'Como funciona o serviço de contabilidade mensal?',
-    answer: 'Cuidamos de toda a parte contábil e fiscal da sua empresa: emissão de guias de impostos, folha de pagamento, declarações obrigatórias, balanços e demonstrativos. Você recebe relatórios mensais e tem suporte contínuo da nossa equipe.'
+    answer: 'Cuidamos de toda a parte contábil, fiscal e recursos humanos da sua empresa: emissão de guias de impostos, folha de pagamento, declarações obrigatórias, balanços e demonstrativos. Você recebe relatórios mensais e tem suporte contínuo da nossa equipe.'
   },
   {
     question: 'Quanto tempo demora para abrir empresa e obter CNPJ?',
@@ -99,7 +99,7 @@ const faqs = [
   },
   {
     question: 'Como funciona o atendimento e suporte?',
-    answer: 'Oferecemos atendimento personalizado via WhatsApp, e-mail e telefone. Você tem profissionais dedicados que conhecem seu negócio e estão sempre disponível para esclarecer dúvidas e orientar nas melhores decisões.'
+    answer: 'Oferecemos atendimento personalizado via WhatsApp, e-mail e telefone. Você tem profissionais dedicados que conhecem seu negócio e estão sempre disponíveis para esclarecer dúvidas e orientar nas melhores decisões.'
   }
 ]
 </script>

@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Título da Seção -->
       <div class="text-center mb-12">
-        <h2 class="text-4xl md:text-5xl font-poppins font-bold text-ortech-green mb-4">
+        <h2 class="text-4xl md:text-5xl font-poppins font-bold text-ortech-green mb-4 leading-tight md:leading-snug">
           Tudo o que você precisa saber sobre abertura e gestão da sua empresa
         </h2>
         <p class="text-lg text-gray-600 font-montserrat max-w-3xl mx-auto">
