@@ -8,33 +8,8 @@
         <p class="text-xl text-gray-600 mb-8">
           Depoimentos de quem confia na Ortech
         </p>
-        
-        <!-- Logos dos Clientes -->
-        <div class="flex flex-wrap justify-center items-center gap-6 md:gap-10 mt-12 mb-8">
-          <div class="bg-gradient-to-br from-gray-200 to-gray-300 rounded-2xl shadow-xl p-8 md:p-10 hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border-4 border-ortech-green">
-            <img 
-              src="/images/logo Bavaresco.png" 
-              alt="Bavaresco"
-              class="h-24 md:h-32 w-auto object-contain"
-            >
-          </div>
-          <div class="bg-gradient-to-br from-gray-200 to-gray-300 rounded-3xl shadow-2xl p-8 md:p-10 hover:shadow-[0_20px_60px_rgba(0,0,0,0.3)] transition-all duration-300 transform hover:scale-105 border-4 border-ortech-green">
-            <img 
-              src="/images/logo Saviski.png" 
-              alt="Saviski"
-              class="h-24 md:h-32 w-auto object-contain rounded-2xl shadow-lg"
-            >
-          </div>
-          <div class="bg-gradient-to-br from-gray-200 to-gray-300 rounded-2xl shadow-xl p-8 md:p-10 hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border-4 border-ortech-green">
-            <img 
-              src="/images/logo assis.png" 
-              alt="Assis"
-              class="h-24 md:h-32 w-auto object-contain"
-            >
-          </div>
-        </div>
       </div>
-      
+        
       <div class="grid md:grid-cols-3 gap-8">
         <div v-for="depoimento in depoimentos" :key="depoimento.nome" class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
           <div class="flex items-center mb-6">
@@ -43,7 +18,7 @@
             </div>
             <div class="ml-4">
               <h4 class="font-bold text-ortech-green">{{ depoimento.nome }}</h4>
-              <p class="text-sm text-gray-600">{{ depoimento.empresa }}</p>
+              <p class="text-sm text-gray-600">{{ depoimento.cargo }}</p>
             </div>
           </div>
           <div class="flex mb-4">
@@ -61,21 +36,21 @@
 <script setup>
 const depoimentos = [
   {
-    nome: 'Roberto Bavareso',
-    iniciais: 'RB',
-    empresa: 'Sócio Fundador do Supermercado Bavaresco',
-    texto: 'A Ortech transformou a gestão da minha loja. Consegui reduzir impostos e ter mais controle financeiro. Atendimento impecável!'
+    nome: 'Carlos Oliveira',
+    iniciais: 'CO',
+    cargo: 'Proprietário de Rede Varejista',
+    texto: 'A Ortech transformou a gestão do meu negócio. Consegui reduzir impostos e ter mais controle financeiro. Atendimento impecável!'
   },
   {
-    nome: 'Roberto Silva',
+    nome: 'Ricardo Santos',
     iniciais: 'RS',
-    empresa: 'Sócio Fundador do Supermercado Saviski',
+    cargo: 'Diretor Comercial',
     texto: 'Profissionais extremamente competentes. O atendimento online é muito prático e eles sempre respondem rápido pelo WhatsApp.'
   },
   {
-    nome: 'Ana Paula',
-    iniciais: 'AP',
-    empresa: 'Sócio Fundador do Supermercado Assis',
+    nome: 'Mariana Costa',
+    iniciais: 'MC',
+    cargo: 'Empresária do Setor de Serviços',
     texto: 'Desde que contratei a Ortech, minha empresa cresceu muito. O planejamento tributário fez toda a diferença na lucratividade!'
   }
 ]
